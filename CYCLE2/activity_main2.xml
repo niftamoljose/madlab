@@ -1,15 +1,16 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.cy2_p03.Main2Activity">
+    android:layout_gravity="center"
+    tools:context=".Main2Activity">
     <TextView
-        android:id="@+id/received_value_id"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:textStyle="bold"
-        android:textSize="40dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="40dp"/>
-</RelativeLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="activity 2"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="237dp" />
+</android.support.constraint.ConstraintLayout>
